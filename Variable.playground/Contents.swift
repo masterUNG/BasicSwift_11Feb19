@@ -23,6 +23,29 @@ number3 = 5000
 var answer = number1 + 1000 + Int(number2)
 var answer2 = number2 + 0.5 + Double(number1)
 
+//Array
+var friends = ["Doramon", "Nopita", "Sunako"]
+print("This is Print on Console")
+print("ขนาดของ Array friend = \(friends.count)")
+friends[1]
+
+//Add Member to Array
+friends.append("Master UNG")
+
+//Delete Member
+friends.remove(at: 1)
+friends
+
+//Dictionary
+var offices = ["key1":"Doramon", "key2":"Nopita"]
+offices["key1"]
+offices.count
+
+offices["country1"] = "Thailand"
+offices
+
+
+
 
 
 
